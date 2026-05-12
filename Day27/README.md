@@ -1,5 +1,4 @@
 # 🚀 Day 27 - Subarray Sum Equals K
-
 Today I solved one problem as part of my DSA journey.
 
 ## 🧩 Problem
