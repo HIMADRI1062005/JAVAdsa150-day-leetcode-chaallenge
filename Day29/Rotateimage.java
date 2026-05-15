@@ -14,7 +14,6 @@ class Solution {
             top++;
             bottom--;
         }
-
         for (int row = 0; row < edgeLength; row++) {
             for (int col = row + 1; col < edgeLength; col++) {
                 int temp = matrix[row][col];
