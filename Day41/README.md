@@ -20,7 +20,6 @@ Expanded the window when characters were unique and shrank it whenever a duplica
 - Efficient substring handling using HashSet  
 
 ---
-
 ## 💭 My thoughts  
 This problem was really interesting because the window keeps changing dynamically based on duplicates.  
 
