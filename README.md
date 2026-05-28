@@ -49,15 +49,15 @@ In this repository, I solve **1 LeetCode problem every day** using **Java** to i
 
 | Day | Status |
 |-----|--------|
-| Day 1 - Day 41 | ✅ Completed |
-| Current Streak | 🔥 41 Days |
-| Remaining Days | 🚀 109 Days Left |
+| Day 1 - Day 42 | ✅ Completed |
+| Current Streak | 🔥 42 Days |
+| Remaining Days | 🚀 108 Days Left |
 
 ---
 
 # 🏆 Current Progress
 
-✅ 41 Days Completed  
+✅ 42 Days Completed  
 🔥 Daily Streak Going Strong  
 🚀 Improving Problem Solving Skills Every Day
 
