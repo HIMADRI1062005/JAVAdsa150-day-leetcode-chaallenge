@@ -106,19 +106,10 @@ I started this challenge to:
 </p>
 
 ---
-
 # 🔥 Daily Motivation
 
 <p align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=Righteous&size=28&center=true&vCenter=true&width=900&height=70&duration=4000&lines=Consistency+Beats+Talent+🔥;One+Problem+Every+Day+🚀;Small+Steps+Lead+to+Big+Success+💡;Code.+Practice.+Repeat.+💻" />
-</p>
-
----
-
-# 🐍 Contribution Snake
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/HIMADRI1062005/HIMADRI1062005/output/github-contribution-grid-snake-dark.svg" />
 </p>
 
 ---
