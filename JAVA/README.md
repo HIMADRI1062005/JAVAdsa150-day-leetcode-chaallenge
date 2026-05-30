@@ -1,4 +1,4 @@
-# ☕ Java Journey - Conditional Statements Completed 🚀
+# ☕ Java Journey - Conditional Statements & Loops Completed 🚀
 
 <h1 align="center">Hi 👋, I'm Himadri Bera</h1>
 
@@ -10,30 +10,42 @@
 
 # 📚 Java Learning Progress
 
-✅ Basics of Java  
-✅ Variables & Data Types  
-✅ Operators  
-✅ User Input  
-✅ Type Casting  
-✅ Conditional Statements Completed 🎉
+✅ Basics of Java
+✅ Variables & Data Types
+✅ Operators
+✅ User Input
+✅ Type Casting
+✅ Conditional Statements
+✅ Loops Completed 🎉
 
 ---
 
 # 🚀 Conditional Statements Covered
 
-- if Statement
-- if-else Statement
-- else-if Ladder
-- Nested if
-- switch Statement
-- Ternary Operator
+* if Statement
+* if-else Statement
+* else-if Ladder
+* Nested if
+* switch Statement
+* Ternary Operator
+
+---
+
+# 🔄 Loops Covered
+
+* for Loop
+* while Loop
+* do-while Loop
+* Nested Loops
+* break Statement
+* continue Statement
 
 ---
 
 # 💻 Practice Goal
 
-🎯 Solving Java problems daily  
-🎯 Building logic step-by-step  
+🎯 Solving Java problems daily
+🎯 Building logic step-by-step
 🎯 Improving problem-solving skills
 
 ---
@@ -48,8 +60,8 @@
 
 # 📈 Current Focus
 
-🌱 Learning Java step-by-step  
-📘 Practicing DSA  
+🌱 Learning Java step-by-step
+📘 Practicing DSA
 🔥 Maintaining coding consistency
 
 ---
@@ -83,5 +95,5 @@
 ---
 
 <p align="center">
-⭐ Day-by-day improving my Java journey ⭐
+⭐ Conditional Statements & Loops Completed — Continuing My Java Journey 🚀 ⭐
 </p>
