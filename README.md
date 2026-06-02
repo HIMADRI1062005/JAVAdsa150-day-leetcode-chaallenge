@@ -49,7 +49,7 @@ In this repository, I solve **1 LeetCode problem every day** using **Java** to i
 
 | Day | Status |
 |-----|--------|
-| Day 1 - Day 46 | ✅ Completed |
+| Day 1 - Day 47 | ✅ Completed |
 | Current Streak | 🔥 47 Days |
 | Remaining Days | 🚀 103 Days Left |
 
