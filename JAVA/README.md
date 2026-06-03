@@ -17,6 +17,7 @@
 ✅ Type Casting
 ✅ Conditional Statements
 ✅ Loops Completed 🎉
+✅ Pattern Printing Completed 🎉
 
 ---
 
@@ -39,6 +40,20 @@
 * Nested Loops
 * break Statement
 * continue Statement
+
+---
+# 🎨 Pattern Printing Covered
+ * Square Patterns
+ * Rectangle Patterns
+ * Triangle Patterns
+ * Inverted Triangle Patterns
+ * Pyramid Patterns
+ * Hollow Patterns
+ * Number Patterns
+ * Character Patterns
+ * Nested Loop Logic
+
+
 
 ---
 
