@@ -166,8 +166,6 @@
 
 
 
-
-
 //pattern 4 --Rhombus Pattern,
 
 public class patternpinting {
