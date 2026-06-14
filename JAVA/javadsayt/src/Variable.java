@@ -24,6 +24,7 @@ public class Variable {
         int _marks =12;
         int $marks =13;
 
+
         // subsequent letters
         int height5 =21;
 

@@ -35,17 +35,17 @@ public class operator {
 
 
         //2.Assignment Operators
-        //(Start: ratingPoints = 100 ,After += 20 → 120, After -= 10 → 110,After *= 2 → 220,After /= 4 → 55,After %= 30 → 25)
+        (Start: ratingPoints = 100 ,After += 20 → 120, After -= 10 → 110,After *= 2 → 220,After /= 4 → 55,After %= 30 → 25)
 
-//        int ratingPoints = 100;
-//
-//        ratingPoints += 20;  // ratingPoints = ratingPoints + 20
-//        ratingPoints -= 10;  // ratingPoints = ratingPoints - 10
-//        ratingPoints *= 2;   // ratingPoints = ratingPoints * 2
-//        ratingPoints /= 4;   // ratingPoints = ratingPoints / 4
-//        ratingPoints %= 30;  // ratingPoints = ratingPoints % 30
-//
-//        System.out.println(ratingPoints);
+       int ratingPoints = 100;
+
+       ratingPoints += 20;  // ratingPoints = ratingPoints + 20
+       ratingPoints -= 10;  // ratingPoints = ratingPoints - 10
+       ratingPoints *= 2;   // ratingPoints = ratingPoints * 2
+       ratingPoints /= 4;   // ratingPoints = ratingPoints / 4
+       ratingPoints %= 30;  // ratingPoints = ratingPoints % 30
+
+       System.out.println(ratingPoints);
 
 
       //   4 . Logical Operators
