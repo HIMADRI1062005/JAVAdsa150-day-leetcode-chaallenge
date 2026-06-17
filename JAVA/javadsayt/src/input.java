@@ -32,5 +32,6 @@ public class input {
         System.out.println("answer  floatValue is :"+ floatValue);
 
         sc.close();
+        
     }
 }
