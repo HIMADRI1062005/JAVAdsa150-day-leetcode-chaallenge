@@ -35,7 +35,7 @@ public class operator {
 
 
         //2.Assignment Operators
-        (Start: ratingPoints = 100 ,After += 20 → 120, After -= 10 → 110,After *= 2 → 220,After /= 4 → 55,After %= 30 → 25)
+//        (Start: ratingPoints = 100 ,After += 20 → 120, After -= 10 → 110,After *= 2 → 220,After /= 4 → 55,After %= 30 → 25)
 
        int ratingPoints = 100;
 
