@@ -18,16 +18,34 @@ public class methods {
         System.out.println("Result: " + ans);
 
     }
+
+
     // non void example
     static  int add (int p, int q){
         int sum =p +q;
         return sum ;
 
     }
-        public static void main(String[] args) {
-             int result =add(12 ,13);
-            System.out.println("result:" + result);
-        }
+
+    static  int add (int p, int q ,int r){
+        int ans =p +q +r;
+        return ans;
+
+    }
+
+    
+
+//    public static void main(String[] args) {
+//        int ans1 = add(1,2);
+//        int ans2 = add(1,2,3);
+//        System.out.println("ans1:" +ans1);
+//        System.out.println("ans2:" +ans2);
+//
+//    }
+//        public static void main(String[] args) {
+//             int result =add(12 ,13);
+//            System.out.println("result:" + result);
+//        }
 
 //    public static void main(String[] args) {
 //        printMultiplication(5, 10); // void example
