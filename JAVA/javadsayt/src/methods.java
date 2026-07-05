@@ -33,7 +33,27 @@ public class methods {
 
     }
 
-    
+
+        static void solve(int num) {
+            System.out.println("Inside solve: " + num);
+            num = num * 10;
+            System.out.println("Inside solve after modification: " + num);
+        }
+
+        public static void main(String[] args) {
+
+            int num = 5;
+
+            System.out.println("Before solve: " + num);
+
+            solve(num);
+
+            System.out.println("After solve: " + num);
+        }
+    }
+
+
+
 
 //    public static void main(String[] args) {
 //        int ans1 = add(1,2);
@@ -55,4 +75,4 @@ public class methods {
         // System.out.println("hi");
         // print2Katable();
         // System.out.println("bye");
-    }
+//}
