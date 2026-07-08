@@ -18,7 +18,8 @@
 ✅ Conditional Statements
 ✅ Loops Completed 🎉
 ✅ Pattern Printing Completed 🎉
-
+✅ Methods Completed 🎉
+✅ Arrays Completed 🎉
 ---
 
 # 🚀 Conditional Statements Covered
