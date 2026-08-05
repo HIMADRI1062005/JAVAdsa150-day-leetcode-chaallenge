@@ -1,4 +1,8 @@
-package PACKAGE_NAME;
 
 public class BasicMath {
+    public static void main(String[] args) {
+
+        
+
+    }
 }
