@@ -1,47 +1,48 @@
-# 🚀 Day 112 - Smallest Divisible Digit Product I
+# 🚀 Day 113 - Sum of Digits of String After Convert
 
 Today I solved another problem as part of my 150-Day DSA journey.
 
 ## 🧩 Problem
 
-### 3345. Smallest Divisible Digit Product I
+### 1945. Sum of Digits of String After Convert
 
-🔗 https://leetcode.com/problems/smallest-divisible-digit-product-i/
+🔗 https://leetcode.com/problems/sum-of-digits-of-string-after-convert/
 
 ## ✅ What I did
 
-Solved a number simulation problem where the goal was to find the smallest integer greater than or equal to `n` whose product of digits is divisible by `t`.
+Solved a string simulation problem that required converting each character into its alphabetical position, then repeatedly summing the digits of the resulting number for `k` transformations.
 
 ## 💡 Approach
 
-The solution is based on direct simulation and digit processing.
+The solution combines string processing with simulation.
 
 The overall idea was:
 
-- Start checking numbers from `n`.
-- For each number, calculate the product of all its digits.
-- Check whether the digit product is divisible by `t`.
-- If it is divisible, return the current number.
-- Otherwise, increment the number and continue searching.
+- Convert every character into its alphabetical position (`a → 1`, `b → 2`, ..., `z → 26`).
+- Concatenate these values to form the initial numeric string.
+- Repeat the following process `k` times:
+  - Sum all the digits of the current string.
+  - Convert the sum back into a string.
+- Return the final integer value after all transformations.
 
-Since the constraints for this version allow a straightforward search, this approach keeps the implementation simple and easy to understand.
+This directly follows the problem statement while keeping the implementation clean and efficient.
 
 ## 📚 What I learned
 
-- Digit manipulation
-- Number simulation
-- Divisibility checking
-- Brute-force search
-- Breaking numbers into individual digits
+- String manipulation
+- Character-to-number conversion
+- Simulation
+- Digit summation
+- Iterative processing
 
 ---
 
 ## 💭 My Thoughts
 
-This problem was a good exercise in digit manipulation and simulation.
+This problem was a nice combination of string processing and simulation.
 
-The important part was understanding that instead of generating complicated possibilities, I could simply check numbers in increasing order until the required condition was satisfied.
+The implementation wasn't difficult, but it required careful handling of the conversion step before applying multiple digit-sum transformations. Breaking the solution into small, independent steps made the logic much easier to implement.
 
-It also reinforced how digit-based problems can often be solved cleanly by separating the number into individual digits and processing them one by one.
+It's another reminder that simple simulation problems help build strong implementation skills.
 
-Day 113 tomorrow 🚀
+Day 114 tomorrow 🚀
