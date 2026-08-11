@@ -1,6 +1,5 @@
 class Solution {
     public int minimumNumbers(int nums, int k) {
-	
         if(nums==0) return 0;
         int x=nums%10;
      
