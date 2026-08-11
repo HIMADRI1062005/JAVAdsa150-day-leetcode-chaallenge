@@ -1,54 +1,36 @@
-# 🚀 Day 117 - Integer to Roman
+# 🧩 Problem
+2520. Count the Digits That Divide a Number
 
-Today I solved another problem as part of my 150-Day DSA journey.
+🔗 https://leetcode.com/problems/count-the-digits-that-divide-a-number/
 
-## 🧩 Problem
+# 💡 Approach
 
-### 12. Integer to Roman
-
-🔗 https://leetcode.com/problems/integer-to-roman/
-
-## ✅ What I did
-
-Solved a Greedy problem that required converting an integer into its corresponding Roman numeral representation.
-
-## 💡 Approach
-
-The solution uses a Greedy approach with predefined Roman numeral values.
+The solution is based on digit manipulation.
 
 The overall idea was:
 
-- Store Roman numeral symbols along with their corresponding values.
-- Start from the largest Roman numeral value.
-- Find how many times the current value can be subtracted from the number.
-- Append the corresponding Roman symbol to the result.
-- Continue until the number becomes `0`.
-- Include special combinations such as:
-  - `IV`
-  - `IX`
-  - `XL`
-  - `XC`
-  - `CD`
-  - `CM`
+Store the original number.
+Extract each digit using % 10.
+Check whether the digit is non-zero.
+Check if the original number is divisible by that digit.
+If it is divisible, increase the count.
+Remove the last digit using / 10.
+Continue until all digits are processed.
 
-By always choosing the largest possible value, the number can be converted into its correct Roman numeral efficiently.
+The important part is handling 0, because division by zero is not possible.
 
-## 📚 What I learned
+# 📚 What I learned
+Digit extraction
+Modulo operator
+Integer division
+Handling zero digits
+Basic number manipulation
+# 💭 My Thoughts
 
-- Greedy algorithms
-- String construction
-- Array-based mapping
-- Roman numeral rules
-- Handling special cases
+This was a simple but useful problem for strengthening my understanding of digit manipulation.
 
----
+The main thing to remember was that we need to check whether the original number is divisible by each digit, not the number after removing digits.
 
-## 💭 My Thoughts
+It was another good practice problem for working with % and / operations.
 
-This problem was a good example of how a Greedy approach can simplify a conversion problem.
-
-The key was understanding that Roman numerals follow a fixed ordering, with a few special subtraction cases. Once those values were organized from largest to smallest, constructing the answer became much easier.
-
-It's another reminder that recognizing the structure of a problem before coding can make the implementation much cleaner.
-
-Day 118 tomorrow 🚀
+Two problems completed on Day 117! 🚀
