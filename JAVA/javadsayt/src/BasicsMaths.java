@@ -24,47 +24,99 @@
 
 
 
-//1.count digits of a number
+//2.count digits of a number
+//
+//public class BasicsMaths {
+//    static  void printDigits(int num){
+//        // agar mera num =0,too mey ruk jauga
+//        // agar mera num!=0,toh main processing krta huu
+//
+//        while(num!=0){
+//            int digit = num%10;
+//            System.out.println(digit);
+//            //last digit remove
+//            num=num/10;
+//
+//        }
+//    }
+//
+//    static  int countDigits(int num){
+//        // agar mera num =0,too mey ruk jauga
+//        // agar mera num!=0,toh main processing krta huu
+//         int count = 0;
+//        while(num!=0){
+//            int digit = num%10;
+//            count++;
+//            //last digit remove
+//            num=num/10;
+//
+//        }
+//        return count;
+//    }
+//    public static void main(String[] args) {
+//        int num = 53127;
+//        int ans = countDigits(num);
+//        System.out.println(ans);
+//     printDigits(num);
+//
+//    }
+//}
 
+
+
+
+//3.sum of digits of a number
+//
+//public class BasicsMaths {
+//    static  int sumOfDigits(int num){
+//        // agar mera num =0,too mey ruk jauga
+//        // agar mera num!=0,toh main processing krta huu
+//        int sum=0;
+//        while(num!=0){
+//            int digit = num%10;
+//            sum=sum+digit;
+//            //last digit remove
+//            num=num/10;
+//
+//        }
+//        return sum;
+//    }
+// // eaa nahi  daluga too code run hoga
+//
+//    public static void main(String[] args) {
+//        int num = 53127;
+//        int sum= sumOfDigits(num);
+//        System.out.println(sum);
+//
+//
+//    }
+//}
+
+
+
+  // 4.
 public class BasicsMaths {
-    static  void printDigits(int num){
+    static  int sumOfDigits(int num){
         // agar mera num =0,too mey ruk jauga
         // agar mera num!=0,toh main processing krta huu
-
+        int sum=0;
         while(num!=0){
             int digit = num%10;
-            System.out.println(digit);
+            sum=sum+digit;
             //last digit remove
             num=num/10;
 
         }
+        return sum;
     }
+    // eaa nahi  daluga too code run hoga
 
-    static  int countDigits(int num){
-        // agar mera num =0,too mey ruk jauga
-        // agar mera num!=0,toh main processing krta huu
-         int count = 0;
-        while(num!=0){
-            int digit = num%10;
-            count++;
-            //last digit remove
-            num=num/10;
-
-        }
-        return count;
-    }
     public static void main(String[] args) {
-        int num = 53127;
-        int ans = countDigits(num);
-        System.out.println(ans);
-//        printDigits(num);
+        int num = 1234;
+        int 
 
     }
 }
-
-
-
-
 
 
 
