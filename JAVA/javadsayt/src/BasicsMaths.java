@@ -94,26 +94,30 @@
 
 
 
-  // 4.
+  // 4. reverse a number
 public class BasicsMaths {
-    static  int sumOfDigits(int num){
-        // agar mera num =0,too mey ruk jauga
-        // agar mera num!=0,toh main processing krta huu
-        int sum=0;
-        while(num!=0){
-            int digit = num%10;
-            sum=sum+digit;
-            //last digit remove
-            num=num/10;
-
-        }
-        return sum;
-    }
     // eaa nahi  daluga too code run hoga
+
+       static int reverseNum(int num){
+        int revNum =0;
+        // ans = ans *10+curentDigit
+
+           while(num!=0){
+               int digit = num%10;
+               //reverse num calculater as  per formula
+               revNum=revNum*10 +digit;
+               num = num/10;
+           }
+           // eaa nahi  daluga too code run hoga
+           return revNum;
+
+       }
+
 
     public static void main(String[] args) {
         int num = 1234;
-        int 
+        int revNum =reverseNum(num);
+        System.out.println(revNum);
 
     }
 }
