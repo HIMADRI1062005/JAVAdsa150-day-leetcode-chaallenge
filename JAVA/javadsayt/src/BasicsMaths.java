@@ -94,38 +94,65 @@
 
 
 
-  // 4. reverse a number
+//  // 4. reverse a number
+//public class BasicsMaths {
+//    // eaa nahi  daluga too code run hoga
+//
+//       static int reverseNum(int num){
+//        int revNum =0;
+//        // ans = ans *10+curentDigit
+//
+//           while(num!=0){
+//               int digit = num%10;
+//               //reverse num calculater as  per formula
+//               revNum=revNum*10 +digit;
+//               num = num/10;
+//           }
+//           // eaa nahi  daluga too code run hoga
+//           return revNum;
+//
+//       }
+//
+//
+//    public static void main(String[] args) {
+//        int num = 1234;
+//        int revNum =reverseNum(num);
+//        System.out.println(revNum);
+//
+//    }
+//}
+
+
+
+
+// 5.palindrome Number
+
 public class BasicsMaths {
     // eaa nahi  daluga too code run hoga
 
-       static int reverseNum(int num){
+    static int reverseNum(int num){
         int revNum =0;
         // ans = ans *10+curentDigit
 
-           while(num!=0){
-               int digit = num%10;
-               //reverse num calculater as  per formula
-               revNum=revNum*10 +digit;
-               num = num/10;
-           }
-           // eaa nahi  daluga too code run hoga
-           return revNum;
+        while(num!=0){
+            int digit = num%10;
+            //reverse num calculater as  per formula
+            revNum=revNum*10 +digit;
+            num = num/10;
+        }
+        // eaa nahi  daluga too code run hoga
+        return revNum;
 
-       }
+    }
 
 
     public static void main(String[] args) {
-        int num = 1234;
+        int num = 1221;
         int revNum =reverseNum(num);
         System.out.println(revNum);
 
     }
 }
-
-
-
-
-
 
 
 
