@@ -7,7 +7,7 @@ My journey of solving Leetcode problems daily and improving DSA step by step usi
 
 # 🚀 JAVAdsa150-day-leetcode-chaallenge
 
-<h1 align="center">☕ 150 Days Java + DSA LeetCode Challenge 🚀</h1>
+<h1 align="center">☕ 150 Days Java + DSA LeetCode Challenges 🚀</h1>
 
 <p align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&pause=1000&color=F7B93E&center=true&vCenter=true&width=900&lines=Solving+LeetCode+Daily+🔥;150+Days+Java+%2B+DSA+Challenge+🚀;Building+Consistency+Every+Day+💻;Future+Software+Developer+🌟" />
