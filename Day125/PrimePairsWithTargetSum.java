@@ -1,31 +1,29 @@
-import java.util.*;
-
 class Solution {
-    public List<List<Integer>> findPrimePairs(int n) {
-        List<List<Integer>> ans = new ArrayList<>();
-        
-        boolean[] prime = new boolean[n+1];
-        Arrays.fill(prime, true);
-        prime[0] = prime[1] = false;
-        
-        for (int i = 2; i <= n; i++) {
-            if (prime[i]) {
-                int j = i * i;
-                
-                while (j <= n) {
-                    prime[j] = false;
-                    j += i;
+    public static List<List<Integer>> findPrimePairs(int n) {
+        // sieve of Eratosthenes
+        boolean[] vis = new boolean[n + 1];
+        for (int i = 2; i * i <= n; i++) {
+            if (!vis[i]) {
+                for (int j = 2 * i; j <= n; j += i) {
+                    vis[j] = true;
                 }
             }
         }
-        
-        for (int i = 2; i < n; i++) {
-            if (i + i > n) break;
-            if (prime[i] && prime[n - i]) {
-                ans.add(Arrays.asList(i, n - i));
+
+        List<List<Integer>> ans = new ArrayList<>();
+
+        for (int i = 2; i <= n / 2; i++) {
+            int x = i;
+            int y = n - i;
+
+            if (!vis[x] && !vis[y] && x <= y) {
+                List<Integer> pair = new ArrayList<>();
+                pair.add(x);
+                pair.add(y);
+                ans.add(pair);
             }
         }
-        
+
         return ans;
     }
 }
